@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokemons {
+    border: 1px solid white;
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 22px;
+}
+
+.pokemons p {
+    margin: 5px;
+}
