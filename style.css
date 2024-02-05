@@ -7,7 +7,7 @@ body {
     justify-content: center;
 }
 
-.pokemons, .dogs {
+.pokemons, .dogs, .books, .persons, .allergies {
     border: 1px solid white;
     width: 40%;
     height: 50vh;
@@ -18,10 +18,7 @@ body {
     align-items: flex-start;
     font-size: 18px;
 }
-.dogs {
-    width: 40%;
-}
 
-.pokemons p, .dogs p {
+.pokemons p, .dogs p, .books p, .persons p, .allergies p {
     margin: 5px;
 }
