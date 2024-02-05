@@ -2,22 +2,26 @@ body {
     background-color: black;
     color: white;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.pokemons {
+.pokemons, .dogs {
     border: 1px solid white;
-    width: 50%;
+    width: 40%;
     height: 50vh;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    font-size: 22px;
+    font-size: 18px;
+}
+.dogs {
+    width: 40%;
 }
 
-.pokemons p {
+.pokemons p, .dogs p {
     margin: 5px;
 }
